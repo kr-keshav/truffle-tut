@@ -10,7 +10,7 @@ contract SimpleStorage{
     }
 
     function getter() public view returns(uint256){
-        return a;
+        return a+2;
     }
 
     
